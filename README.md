@@ -1,0 +1,4 @@
+# Spark_Demo
+
+使用spark替换MapReduce+hive+sqoop的过程，直接生成导出到mysql。两种模式构建RDD，一种是基于反射机制构建，一种是动态构建。demo中ClickProject使用动态构建的方法调用HDFS内的数据，sparkproject为测试工程，对于spark的Transformer和action的算子，以及两种构建方法进行测试。
+
